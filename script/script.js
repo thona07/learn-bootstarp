@@ -8,7 +8,7 @@
 	var Bootstrap = {
 		init: function() {
 			this.clickMe();
-			this.changeBackground();
+			//this.changeBackground();
 		},
 		
 		test: function() {
@@ -22,9 +22,9 @@
 			});
 		},
 		
-		changeBackground: function() {
+		//changeBackground: function() {
 			$('body').css({
-				'background': 'success'
+				'background': 'red'
 			});
 		}
 	}
