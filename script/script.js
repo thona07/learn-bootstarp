@@ -25,7 +25,7 @@
 		
 		changeBackground: function() {
 			$('body').css({
-				'background': 'red'
+				'background': 'gray'
 			});
 		}
 	
