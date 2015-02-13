@@ -7,7 +7,9 @@
  $( function() {
 	var Bootstrap = {
 		init: function() {
+			//this.test();
 			this.clickMe();
+			this.fonecolor();
 			this.changeBackground();
 			
 		},
@@ -23,13 +25,20 @@
 			});
 		},
 		
+		fonecolor: function() {
+			$('td:odd').css({
+				'color': 'red'
+			});
+		},
 		changeBackground: function() {
 			$('body').css({
-				'background': 'gray'
+				'background': 'grey'
 			});
 		}
+	}
 	
 	$( document ).ready( function() {
 		Bootstrap.init();
 	});
  });
+ 
