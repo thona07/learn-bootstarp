@@ -24,7 +24,7 @@
 		
 		changeBackground: function() {
 			$('body').css({
-				'background': 'blue'
+				'background': 'success'
 			});
 		}
 	}
